@@ -12,6 +12,6 @@ describe('String#count_word_in_string') do
   # end
 
   it('allows the user to count how many times the word is repeated in the string') do
-    expect(('happy').count_word_in_string('oh very happy happy happy happy day')).to(eq('the word happy shows 4 times'))
+    expect(('happy').count_word_in_string('oh very happy happy happy happy day')).to(eq('the word happy shows 4 times.'))
   end
 end
