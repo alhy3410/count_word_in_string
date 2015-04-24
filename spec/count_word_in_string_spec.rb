@@ -8,7 +8,7 @@ describe('String#count_word_in_string') do
   end
 
   it('allows the user to input a word as well as a string') do
-    expect(('this').count_word_in_string()).to(eq('oh very happy happy day'))
+    expect(('this').count_word_in_string('oh very happy happy day')).to(eq('oh very happy happy day'))
   end
-  
+
 end
