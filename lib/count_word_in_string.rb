@@ -11,6 +11,6 @@ class String
         next
       end
     end
-  answer = "the word " + test_word.to_s + " shows " + word_counter.to_s + " times."
+  answer = "The word " + test_word.to_s + " shows " + word_counter.to_s + " times."
   end
 end
