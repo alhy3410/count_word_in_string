@@ -1,6 +1,7 @@
 class String
   define_method(:count_word_in_string) do |compared_words|
     test_word = self
+    compared_words.gsub!(/[,]/, '')
     compared_word_list = compared_words.split()
     word_counter = 0
     compared_word_list.each() do |word|
