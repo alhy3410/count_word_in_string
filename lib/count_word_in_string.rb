@@ -7,8 +7,6 @@ class String
     compared_word_list.each() do |word|
       if word.eql?(test_word)
         word_counter = word_counter.+(1)
-      else
-        next
       end
     end
   answer = "The word " + test_word.to_s + " shows " + word_counter.to_s + " times."
